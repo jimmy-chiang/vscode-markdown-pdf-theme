@@ -36,7 +36,7 @@ Open your VS Code `settings.json` (User or Workspace) and add the path to the st
 ```json
 {
   "markdown-pdf.styles": [
-    "/absolute/path/to/vscode-markdown-pdf-theme/style.css"
+    "/absolute/path/to/vscode-markdown-pdf-theme/markdown-pdf.css"
   ]
 }
 ```
