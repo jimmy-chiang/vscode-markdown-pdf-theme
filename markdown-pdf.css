@@ -1,0 +1,53 @@
+/* 1. Inline code (light gray background, subtle rounded corners) */
+:not(pre):not(.hljs) > code {
+  background-color: #f3f5f7;
+  color: #24292f;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
+    monospace;
+}
+
+/* 2. Table style matching Image 2 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+  background-color: #ffffff;
+}
+
+table th,
+table td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid #eef0f3;
+}
+
+table th {
+  font-weight: 600;
+  color: #1a1a1a;
+  background-color: #fafbfc;
+}
+
+/* 3. Lighter Horizontal Rule */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 24px 0;
+}
+
+/* 4. Bold Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #111827;
+}
